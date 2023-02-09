@@ -74,22 +74,31 @@ header .header-content{
     margin-bottom: 15px;
 }
 
-/* about section */
+/* about section styles */
 .about-section{
     width: 1072px;
+    margin: 130px auto;
+}
+.about-content{
     display: flex;
     align-items: center;
-    margin: 130px auto;
     gap: 80px;
 }
 .about-section .section-title{
     font-weight: 700;
     font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 .about-description{
     color: #444343;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.about-description .title{
+    font-size: 26px;
+    font-weight: 700px;
+    margin-bottom: 30px;
 }
 .about-section img{
     width: 400px;
