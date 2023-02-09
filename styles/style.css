@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Header section's styles */
+header{
+    background-image: url(/assets/images/banner/banner2.png);
+    background-size: cover;
+    
+}
+header .header-content{
+    text-align: right;
+    justify-content: center;
+    padding: 200px;
+}
+.header-content h1{
+    font-weight: 700;
+    font-size: 65px;
+}
+.header-content p{
+    color: #444343;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header-content button{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 20px 25px;
+    border: none;
+}
+
+/* Report section styles */
+.report-section{
+    width: 1072px;
+    display: flex;
+    align-items: center;
+    margin: 130px auto;
+    gap: 80px;
+}
+.report-section section-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.report-description{
+    color: #444343;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* plan section styles */
+.plan-section{
+    width: 1072px;
+    margin: 130px auto;
+}
+.plan-section h2{
+    text-align: center;
+    font-size: 40px;
+}
+.plan-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.plan-item{
+    text-align: center;
+}
+.item-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* footer section styles */
+/* future part styles */
+.footer-part{
+    background-color: #151414;
+    color: white;
+    padding:130px 230px;
+    display: flex;
+    gap: 300px;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.future-description, p{
+    margin-bottom: 15px;
+}
+/* subscribe part styles */
+.subscribe-tile{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.subscribe input{
+    background-color: #151414;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.footer-part button{
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    background: white;
+    border-radius: 5px;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+}
