@@ -82,7 +82,7 @@ header .header-content{
 .about-content{
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
 }
 .about-section .section-title{
     font-weight: 700;
