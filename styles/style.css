@@ -40,7 +40,7 @@ header .header-content{
     margin: 130px auto;
     gap: 80px;
 }
-.report-section section-title{
+.report-section .section-title{
     font-weight: 700;
     font-size: 40px;
 }
@@ -49,6 +49,7 @@ header .header-content{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 /* plan section styles */
 .plan-section{
     width: 1072px;
@@ -72,6 +73,48 @@ header .header-content{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+/* about section */
+.about-section{
+    width: 1072px;
+    display: flex;
+    align-items: center;
+    margin: 130px auto;
+    gap: 80px;
+}
+.about-section .section-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.about-description{
+    color: #444343;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-section img{
+    width: 400px;
+    border-radius: 50%;
+}
+
+/* Mindset Section  */
+.mindset-section{
+    width: 1072px;
+    margin: 130px auto;
+}
+.mindset-content{
+    background-image: linear-gradient(to right, rgb(86, 86, 209) , rgb(212, 212, 198));
+    background-size: cover;
+    padding: 60px 60px;
+    border-radius: 8px;
+}
+.mindset-title{
+    width: 450px;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 24px;
+}
+
 /* footer section styles */
 /* future part styles */
 .footer-part{
@@ -104,7 +147,7 @@ header .header-content{
     border-radius: 5px;
     border: 1px solid white;
 }
-.footer-part button{
+.subscribe-btn{
     color: #F15B22;
     font-weight: 600;
     font-size: 20px;
