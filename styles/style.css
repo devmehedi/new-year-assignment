@@ -5,9 +5,8 @@
 }
 /* Header section's styles */
 header{
-    background-image: url(/assets/images/banner/banner2.png);
+    background-image: url(../assets/images/banner/banner2.png);
     background-size: cover;
-    
 }
 header .header-content{
     text-align: right;
